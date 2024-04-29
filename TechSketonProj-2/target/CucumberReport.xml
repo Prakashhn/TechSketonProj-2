@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="141.576" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Student registration form" name="Verify that student registired data is stored properly or not." time="141.392">
+<system-out><![CDATA[
+Given student is in the registration form...................................passed
+When student enter all the data to text field...............................passed
+And student should click on the Submit button...............................passed
+Then student should be get the register details window......................passed
+]]></system-out>
+</testcase>
+</testsuite>

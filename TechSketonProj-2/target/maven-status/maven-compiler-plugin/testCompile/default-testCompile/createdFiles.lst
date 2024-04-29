@@ -1,0 +1,7 @@
+BasePackage\TestRunner.class
+BasePackage\Student.class
+BasePackage\DbConnection.class
+StepDefinition\BaseLoginPage.class
+StepDefinition\StudentRegistrationPage.class
+Hooks\Myhooks.class
+StepDefinition\UserRegistrationForm.class
