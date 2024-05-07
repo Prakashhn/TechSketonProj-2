@@ -9,9 +9,10 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions( 
-		features="src/test/resources/features/StudentRegistrationPage.feature",
+		features="src/test/resources/features",
 		glue={"StepDefinition","Hooks","Test"}, 
-		plugin= {"pretty","html:target/CucumberReport.html",
+		plugin= {"pretty",
+				"html:target/CucumberReport.html",
 				"junit:target/CucumberReport.xml", 
 				"json:target/CucumberReport.json"}
 		)

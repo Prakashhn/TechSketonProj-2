@@ -122,8 +122,8 @@ public class StudentRegistrationPage {
 		
 				
 		  driver.findElement(By.id("submit")).click();
-	      Thread.sleep(15000);
-//			driver.quit();
+	      Thread.sleep(3000);
+
          // Optionally, you can add a delay to observe the selections
          
      } 
@@ -137,6 +137,7 @@ public class StudentRegistrationPage {
 	@Then("student should be get the register details window")
 	public void student_should_be_get_the_register_details_window() {
 	   System.out.println("Test1");
+		driver.quit();
 	}
 
 
