@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="141.576" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Student registration form" name="Verify that student registired data is stored properly or not." time="141.392">
+<testsuite name="Cucumber" time="89.823" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="User Login" name="Verify that registired user login to respective portal with valid credentials - Example #1.1" time="10.901">
+<system-out><![CDATA[
+Given user is in the login page.............................................passed
+When user enter the valid username swathi@divum.in..........................passed
+And click on Continue button................................................passed
+And enter the valid password Test@12345.....................................passed
+And click on Continueo button...............................................passed
+Then user should lands on the Dashboard page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Verify that registired user login to respective portal with valid credentials - Example #1.2" time="11.282">
+<system-out><![CDATA[
+Given user is in the login page.............................................passed
+When user enter the valid username kmddorg084@tormails.com..................passed
+And click on Continue button................................................passed
+And enter the valid password Test@12345.....................................passed
+And click on Continueo button...............................................passed
+Then user should lands on the Dashboard page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Window handle validation" name="Verify the multiple window handle" time="30.905">
+<system-out><![CDATA[
+Given user is on Window tab of the Demoqa website...........................passed
+When user click on the New window...........................................passed
+Then user can get the childwindow...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Student registration form" name="Verify that student registired data is stored properly or not." time="36.483">
 <system-out><![CDATA[
 Given student is in the registration form...................................passed
 When student enter all the data to text field...............................passed
 And student should click on the Submit button...............................passed
 Then student should be get the register details window......................passed
+]]></system-out>
+</testcase>
+<testcase classname="User registration Form" name="verify the that user basic details" time="0.011">
+<system-out><![CDATA[
+When user enter the all valid data to the respective fields.................passed
+And user click on the continue button.......................................passed
+Then user should registered basic details successfully......................passed
 ]]></system-out>
 </testcase>
 </testsuite>
